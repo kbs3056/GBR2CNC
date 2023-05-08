@@ -1,7 +1,7 @@
 # GBR2CNC
 Simple and fast script to generate PCB cutout G-code from a Gerber file.
 Center of a drawn single line (not contours) will be converted to one step down, one pass slot with a width equal to a milling cutter diameter.
-PCB is placed against two guide edges on the left and bottom sides. Only one fastener is needed to hold the last cut fragment of the board. Principle of operation limits lines angles to a third quadrant, where the origin is a line starting possition. Q I lines will be translated to Q III, but ones in Q II and Q IV will be misinterpreted! 
+PCB is placed against two guide edges on the left and bottom sides. Only one fastener is needed to hold the last cut fragment of the board. Principle of operation limits lines angles to a third quadrant, where the origin is a line starting position. Q I lines will be translated to Q III, but ones in Q II and Q IV will be misinterpreted! 
 
 ## Usage
 python GBR2CNC.py example.gbr
